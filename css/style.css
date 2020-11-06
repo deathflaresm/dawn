@@ -374,32 +374,20 @@ body {
 
 #panels ul:nth-child(2),
 #tabs ul li[active]:nth-child(2) ~ li:last-child {
-    --panelbg: transparent;
-    --flavour: var(--accent);
-    width: 100%;
-    height: 100%;
-    right: 100%;
-    background: #fff url("../img/bg-2.gif") repeat center left fixed;
-    transition: all .6s;
+    --flavour: #5b52e4;
 }
 
 #panels ul:nth-child(3),
 #tabs ul li[active]:nth-child(3) ~ li:last-child {
-    --panelbg: transparent;
-    --flavour: var(--accent);
-    width: 100%;
-    height: 100%;
-    right: 100%;
-    background: #fff url("../img/bg-3.gif") repeat center left fixed;
-    transition: all .6s;
+    --flavour: #5b52e4;
 }
 
 #panels ul .links {
     box-shadow: inset -1px 0 var(--flavour);
 }
 
-/* #panels ul:nth-child(2) { background: #fff url("../img/bg-2.gif") repeat center left fixed; }
-   #panels ul:nth-child(3) { background: #fff url("../img/bg-3.gif") repeat center left fixed; } */
+#panels ul:nth-child(2) { background: #fff url("../img/bg-2.gif") repeat center left fixed; }
+#panels ul:nth-child(3) { background: #fff url("../img/bg-3.gif") repeat center left fixed; }
 
 #panels ul[active] {
     right: 0;

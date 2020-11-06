@@ -3,7 +3,7 @@ const $  = (e) => document.querySelector(e),
 
 function engines () {
   return {
-    g: ['https://google.com/search?q=', 'Google'],
+    g: ['https://duckduckgo.com/?q=', 'DuckDuckGo'],
     i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
     d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
     y: ['https://youtube.com/results?search_query=', 'Youtube'],

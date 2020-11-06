@@ -374,7 +374,7 @@ body {
 
 #panels ul:nth-child(2),
 #tabs ul li[active]:nth-child(2) ~ li:last-child {
-    --flavour: #5b52e4;
+    --flavour: #16a2a2;
 }
 
 #panels ul:nth-child(3),
@@ -504,30 +504,36 @@ body {
     letter-spacing: 1px;
 }
 
+#panels > ul:not(:first-child) .links li h1 {
+    color: #383838;
+    font-size: 22px;
+    margin-bottom: .5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
 #panels > ul:not(:first-child) li {
     padding: .5em;
     /* display: inline; */
 }
 
 #panels > ul:not(:first-child) li a {
-    color: grey;
-    font: 700 16px 'Roboto', sans-serif;
+    color: #bfbfbf;
     text-decoration: none;
-    letter-spacing: 1px;
+    font: 700 18px 'Roboto', sans-serif;
+    transition: all .2s;
+    display: inline-block;
+    padding: .4em .7em;
+    background: rgba(0, 0, 0, .35);
+    box-shadow: 0 3px rgba(0, 0, 0, 0.25), 0 5px 10px rgba(0, 0, 0, .5);
+    border-radius: 2px;
+    margin-bottom: .7em;
 }
 
 #panels > ul:not(:first-child) li a:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 rgba(0, 0, 0, 0.25), 0 0 0 rgba(0, 0, 0, .5), 0 -4px 5px rgba(0, 0, 0, .1);
     color: #fff;
-}
-
-#panels > ul:not(:first-child) li a:hover::before {
-    display: inline;
-}
-
-#panels > ul:not(:first-child) li a::before {
-    content: '> ';
-    font-weight: 400;
-    display: none;
 }
 
 .weather .edit {

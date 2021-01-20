@@ -1,0 +1,117 @@
+@font-face {
+  font-family: roboto;
+  src: url(roboto-mono-medium.ttf);
+}
+
+html {
+	background: transparent;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-color: #111111;
+  background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 2.6em;
+	color: #3c65bc;
+	font-family: roboto;
+	text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-family: roboto;
+  color: #3c65bc;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+a {
+  font-family: roboto;
+  text-transform: lowercase;
+  color: #9d9d9d;
+  font-size: 1rem;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 2px;
+}
+
+a:hover {
+  color: #cc6600;
+}
+
+#title {
+	width: 250px;
+	margin-top: 0px;
+}
+
+#clock {
+	float: left;
+}
+
+.tag p {
+	font-family: roboto;
+	font-size: 1rem;
+	text-transform: lowercase;
+	color: #3c65bc;
+}
+
+#container {
+
+	height: 450px;
+	width: 870px;
+	background: transparent;
+	position: relative;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+  margin-top: 10rem;
+
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 75px;
+	// border-bottom: 2px dotted #ff8000;
+}
+
+.block {
+	float: left;
+	margin-right: 40px;
+	width: auto;
+  margin-top: 0rem;
+	background: transparent;
+}
+
+#weather {
+	width: 150px;
+	margin-top: 1rem;
+  float: left;
+  margin-left: 0rem;
+  margin-right: 6rem;
+}
+
+#quote{
+	height: auto;
+	width: 800px;
+	background: transparent;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+  margin-bottom: 4rem;
+}
+
+/* AWAD below is for the quote too. */
+
+.AWAD_title
+{font-family: roboto; font-size: 0.6em; color: #111111;}
+.AWAD_quotation
+{font-family: roboto; font-size: 0.6em; color: #9d9d9d;}
+.AWAD_byline
+{font-family: roboto; font-size: 0.6em; color: #2e2e2e; font-style: italic;}
